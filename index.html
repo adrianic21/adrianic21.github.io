@@ -1,161 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geopolítica Diaria</title>
+    <title>Mi Landing Page de Podcast</title>
     <style>
-        /* Colores y fuentes */
-        :root {
-            --azul-oscuro: #001f4d;
-            --blanco: #ffffff;
-            --gris-footer: #d9d9d9;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: var(--azul-oscuro);
-            color: var(--blanco);
-            text-align: center;
-        }
-
-        header {
-            padding: 50px 20px 20px 20px;
-        }
-
-        header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 1.2em;
-            margin: 10px 0 30px 0;
-        }
-
-        .cta {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-bottom: 40px;
-        }
-
-        .buttons a {
-            text-decoration: none;
-            color: var(--blanco);
-            background-color: #0056b3;
-            padding: 15px 35px;
-            border-radius: 8px;
-            font-weight: bold;
-            font-size: 1.2em;
-            transition: transform 0.2s, background-color 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .buttons a:hover {
-            background-color: #003366;
-            transform: scale(1.05);
-        }
-
-        .construction {
-            margin-bottom: 50px;
-        }
-
-        .construction img {
-            max-width: 80%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .social {
-            margin-bottom: 30px;
-        }
-
-        .social a {
-            margin: 0 15px;
-            display: inline-block;
-            color: var(--blanco);
-            font-size: 2em;
-            transition: transform 0.2s, color 0.2s;
-        }
-
-        .social a:hover {
-            transform: scale(1.2);
-            color: #00bfff;
-        }
-
-        footer {
-            padding: 20px;
-            background-color: var(--gris-footer);
-            color: #555;
-            font-size: 0.9em;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2em;
-            }
-
-            header p {
-                font-size: 1em;
-            }
-
-            .cta {
-                font-size: 1.2em;
-            }
-
-            .buttons a {
-                padding: 12px 25px;
-                font-size: 1em;
-            }
-
-            .social a {
-                font-size: 1.5em;
-            }
-        }
+        body { font-family: Arial, sans-serif; background: #121212; color: #fff; text-align: center; padding: 50px; }
+        .video-container { max-width: 640px; margin: 0 auto; }
+        iframe { border: none; width: 100%; height: 400px; }
     </style>
-
-    <!-- Íconos de redes sociales -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Geopolítica Diaria</h1>
-        <p>Audioresúmenes de noticias y artículos sobre geopolítica y economía mundial</p>
-        <div class="cta">Síguenos y mantente informado</div>
-
-        <div class="buttons">
-            <a href="https://open.spotify.com/show/7JNs57kxxvQHnZTztccPoh" target="_blank">
-                <i class="fab fa-spotify"></i> Spotify
-            </a>
-            <a href="https://www.youtube.com/@Geopol%C3%ADticaDiariaTV" target="_blank">
-                <i class="fab fa-youtube"></i> YouTube
-            </a>
-        </div>
-    </header>
-
-    <div class="construction">
-        <img src="/mnt/data/a_landing_page_for_geopolítica_diaria_is_present.png" alt="Página en construcción">
+    <h1>Escucha mis Podcast en YouTube</h1>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+        <p>Reemplaza "YOUR_VIDEO_ID" con el ID de tu video de YouTube.</p>
     </div>
-
-    <div class="social">
-        <a href="https://www.facebook.com/geopoliticadiaria" target="_blank"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/geopoliticadiaria/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@geopoliticadiariatv" target="_blank"><i class="fab fa-tiktok"></i></a>
-    </div>
-
-    <footer>
-        &copy; 2026 Geopolítica Diaria. Todos los derechos reservados.
-    </footer>
 </body>
 </html>
